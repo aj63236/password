@@ -4,6 +4,7 @@ while j < 4:
 	pwd = input('請輸入密碼:')
 	if pwd == password:
 		print("登錄成功!")
+		break
 	elif j == 3:
 		print("錯誤太多次，已拒絕登錄")
 		j = j + 1
